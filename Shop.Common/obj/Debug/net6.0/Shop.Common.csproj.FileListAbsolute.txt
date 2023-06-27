@@ -22,3 +22,15 @@ C:\Users\User\Desktop\git\my new shop\Shop\Shop.Common\obj\Debug\net6.0\Shop.Com
 C:\Users\User\Desktop\git\my new shop\Shop\Shop.Common\obj\Debug\net6.0\refint\Shop.Common.dll
 C:\Users\User\Desktop\git\my new shop\Shop\Shop.Common\obj\Debug\net6.0\Shop.Common.pdb
 C:\Users\User\Desktop\git\my new shop\Shop\Shop.Common\obj\Debug\net6.0\ref\Shop.Common.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\bin\Debug\net6.0\Shop.Common.deps.json
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\bin\Debug\net6.0\Shop.Common.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\bin\Debug\net6.0\Shop.Common.pdb
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\refint\Shop.Common.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\Shop.Common.pdb
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Common\obj\Debug\net6.0\ref\Shop.Common.dll

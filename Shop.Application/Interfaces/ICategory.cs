@@ -10,5 +10,6 @@ namespace Shop.Application.Interfaces
     public interface ICategory
     {
         public Task<List<CategoryListViewModel>> CategoryList();
+        public Task<bool> Add(AddCategoryViewModel category); 
     }
 }

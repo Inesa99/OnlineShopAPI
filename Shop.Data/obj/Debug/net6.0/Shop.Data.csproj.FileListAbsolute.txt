@@ -22,3 +22,15 @@ C:\Users\User\Desktop\git\my new shop\Shop\Shop.Data\obj\Debug\net6.0\Shop.Data.
 C:\Users\User\Desktop\git\my new shop\Shop\Shop.Data\obj\Debug\net6.0\refint\Shop.Data.dll
 C:\Users\User\Desktop\git\my new shop\Shop\Shop.Data\obj\Debug\net6.0\Shop.Data.pdb
 C:\Users\User\Desktop\git\my new shop\Shop\Shop.Data\obj\Debug\net6.0\ref\Shop.Data.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\bin\Debug\net6.0\Shop.Data.deps.json
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\bin\Debug\net6.0\Shop.Data.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\bin\Debug\net6.0\Shop.Data.pdb
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\refint\Shop.Data.dll
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\Shop.Data.pdb
+C:\Users\Admin\Desktop\GIT\OnlineShopAPI\Shop.Data\obj\Debug\net6.0\ref\Shop.Data.dll

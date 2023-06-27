@@ -10,5 +10,6 @@ namespace Shop.Application.Interfaces
     public interface IVendor
     {
         public Task<List<VendorListViewModel>> VendorList();
+        public Task<bool> Add(AddVendorViewModel vendor);
     }
 }

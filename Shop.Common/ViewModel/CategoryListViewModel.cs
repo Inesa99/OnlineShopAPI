@@ -10,5 +10,6 @@ namespace Shop.Common.ViewModel
     {
         public int CategoryId { get; set; }
         public string Name { get; set; }
+        public string? Url { get; set; }
     }
 }

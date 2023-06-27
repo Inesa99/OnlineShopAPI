@@ -11,16 +11,10 @@ namespace OnlineShop.API.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProduct _productService;
-        private readonly IVendor _vendorService;
-        private readonly ICategory _categoryService;
-        public ProductController(IProduct productService, IVendor vendorService, ICategory categoryService)
+        public ProductController(IProduct productService)
         {
             _productService = productService;
-            _vendorService = vendorService;
-            _categoryService = categoryService;
         }
-
-      
 
         [HttpGet(Name = "GetProductsList")]
         public List<ProductViewModel> Get()

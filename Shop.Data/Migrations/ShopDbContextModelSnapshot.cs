@@ -58,6 +58,9 @@ namespace Shop.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categorys");
@@ -138,11 +141,11 @@ namespace Shop.Data.Migrations
 
             modelBuilder.Entity("Shop.Data.Entities.ProductImage", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ProductImageId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductImageId"));
 
                     b.Property<string>("FileName")
                         .IsRequired()
@@ -154,7 +157,7 @@ namespace Shop.Data.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("ProductImageId");
 
                     b.HasIndex("ProductId");
 
@@ -219,24 +222,23 @@ namespace Shop.Data.Migrations
 
             modelBuilder.Entity("Shop.Data.Entities.Vendor", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("VendorId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VendorId"));
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Logo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("VendorId");
 
                     b.ToTable("Vendors");
                 });

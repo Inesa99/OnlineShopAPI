@@ -9,7 +9,7 @@ namespace Shop.Data.Entities
 {
     public class ProductImage
     {
-        public int Id { get; set; }
+        public int ProductImageId { get; set; }
         public int Position { get; set; }
         public string FileName { get; set; }
         public int ProductId { get; set; }

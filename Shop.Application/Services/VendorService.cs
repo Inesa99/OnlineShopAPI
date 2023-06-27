@@ -1,11 +1,7 @@
 ﻿using Shop.Application.Interfaces;
 using Shop.Common.ViewModel;
 using Shop.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Shop.Data.Entities;
 
 namespace Shop.Application.Services
 {
@@ -22,11 +18,23 @@ namespace Shop.Application.Services
             List<VendorListViewModel> vendores = _context.Vendors.Select(
                 v => new VendorListViewModel
                 {
-                    VendorId = v.Id,
+                    VendorId = v.VendorId,
                     Name = v.Name,
                 }
             ).ToList();
             return vendores;
+        }
+        public async Task<bool> Add(AddVendorViewModel vendor)
+        {
+            if (_context.Vendors.Select(v => v.Name).Contains(vendor.Name) || vendor == null) return false;
+            Vendor newVendor = new Vendor
+            {
+                Name = vendor.Name,
+                Created = DateTime.Now,
+            };
+            await _context.Vendors.AddAsync(newVendor);
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }
